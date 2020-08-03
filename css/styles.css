@@ -1,0 +1,151 @@
+body {
+  font-family: Roboto-medium;
+}
+
+.grey {
+  color: #757575;
+}
+.white {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+.blue {
+  color: #2196f3;
+}
+.black {
+  color: #000000;
+}
+.order {
+  background-color: #2196f3;
+}
+.font26 {
+  font-size: 26px;
+}
+.font44 {
+  font-size: 44px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font36 {
+  font-size: 36px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font18 {
+  font-size: 18px;
+}
+.link:hover {
+  color: #2196f3;
+}
+.item {
+  width: 370px;
+  font-family: Roboto-medium;
+}
+@font-face {
+  font-family: Roboto-black;
+  src: url(../fonts/Robotoblack.ttf);
+  src: url(../fonts/Robotoblack.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto-medium;
+  src: url(../fonts/Robotomedium.ttf);
+  src: url(../fonts/Robotomedium.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto-thin;
+  src: url(../fonts/Robotothin.ttf);
+  src: url(../fonts/Robotothin.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(../fonts/Robotobold.ttf);
+  src: url(../fonts/Robotobold.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+footer {
+  background-color: #2f303a;
+}
+.normal {
+  font-style: normal;
+}
+.white06 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.darkgrey {
+  color: #757575;
+}
+.activecolore {
+  color: #2196f3;
+}
+.bold {
+  font-weight: 700;
+}
+.dark {
+  color: #212121;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerleft,
+.headerright,
+header ul {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+.headerleft ul li {
+  margin-right: 50px;
+}
+.headerright ul li:not(:last-child) {
+  margin-right: 30px;
+}
+.headerright ul li img {
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.cards li {
+  width: 23%;
+}
+.cards ul,
+.cards2 ul {
+  justify-content: space-between;
+}
+.cards2 li {
+  width: 31%;
+}
+.cards2 li img {
+  width: 100%;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.headerleft a {
+  margin-right: 85px;
+}
