@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto-medium;
+  font-family: Roboto;
 }
 
 .grey {
@@ -11,6 +11,9 @@ body {
 a {
   text-decoration: none;
   color: #212121;
+}
+.commanditem img {
+  width: 100%;
 }
 .blue {
   color: #2196f3;
@@ -44,35 +47,7 @@ a {
 }
 .item {
   width: 370px;
-  font-family: Roboto-medium;
-}
-@font-face {
-  font-family: Roboto-black;
-  src: url(../fonts/Robotoblack.ttf);
-  src: url(../fonts/Robotoblack.ttf) format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto-medium;
-  src: url(../fonts/Robotomedium.ttf);
-  src: url(../fonts/Robotomedium.ttf) format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto-thin;
-  src: url(../fonts/Robotothin.ttf);
-  src: url(../fonts/Robotothin.ttf) format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto-bold;
-  src: url(../fonts/Robotobold.ttf);
-  src: url(../fonts/Robotobold.ttf) format("truetype");
-  font-weight: 500;
-  font-style: normal;
+  position: absolute;
 }
 .uppercase {
   text-transform: uppercase;
@@ -93,10 +68,14 @@ footer {
   color: #2196f3;
 }
 .bold {
-  font-weight: 700;
+  font-weight: 500;
 }
 .dark {
   color: #212121;
+}
+.logo {
+  font-family: Raleway;
+  margin: 0;
 }
 .container {
   max-width: 1170px;
@@ -128,6 +107,7 @@ ul {
 }
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 .cards li {
   width: 23%;
@@ -148,4 +128,52 @@ ul {
 }
 .headerleft a {
   margin-right: 85px;
+}
+.commanditem {
+  width: 23%;
+}
+.clientsitem {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 70.42px;
+}
+.centr {
+  text-align: center;
+}
+.buttons-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 611px;
+  margin: 0 auto 30px;
+  padding-top: 93px;
+}
+.filter {
+  padding: 5px 20px;
+}
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-bottom: 94px;
+}
+.dashboard li {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+.leftpart {
+  width: 231px;
+  margin-right: 69px;
+}
+.footercontent {
+  display: flex;
+}
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.clients {
+  padding-bottom: 133px;
+  padding-top: 94px;
 }

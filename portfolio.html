@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/font.css" />
     <title>Web Studio</title>
   </head>
 
@@ -44,15 +45,15 @@
       </div>
     </header>
     <main>
-        <section>
-      <ul>
-       <li> <button class="white order font16">Все</button> </li>
-        <li> <button class="font16 dark bold">Веб сайты</button></li>
-        <li><button class="font16 dark bold">Приложения</button></li>
-        <li><button class="font16 dark bold">Дизайн</button></li>
-        <li><button class="font16 dark bold">Маркетинг</button></li>
+        <section class="container">
+      <ul class="buttons-bar">
+       <li> <button class="white order font16 filter">Все</button> </li>
+        <li> <button class="font16 dark bold filter">Веб сайты</button></li>
+        <li><button class="font16 dark bold filter">Приложения</button></li>
+        <li><button class="font16 dark bold filter">Дизайн</button></li>
+        <li><button class="font16 dark bold filter">Маркетинг</button></li>
       </ul>
-        <ul>
+        <ul class="dashboard">
             <li >
                 <div class="item">
                     <p class="font18 white">
@@ -107,78 +108,49 @@
       </section>
     </main>
     <footer>
-      <div>
-        <a href="./">
-            <p class="blue font26">
-                Web
-                <span class="white">
-                    Studio
-                </span>
+      <div class="container footercontent">
+        <div class="leftpart">
+          <a href="./">
+            <p class="blue font26 logo">
+              Web
+              <span class="white">
+                Studio
+              </span>
             </p>
-        </a>
-        <address>
+          </a>
+          <address>
+            <ul>
+              <li>
+                <a href="https://www.google.com.ua/maps/place/" target="_blank" rel="noopener noreferrer"
+                  class="white font14 normal">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li>
+                <a href="mailto:info@example.com" class="white06 font14 normal">info@example.com</a>
+              </li>
+              <li>
+                <a href="tel:+380991111111" class="white06 font14 normal">+380991111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <b class="white font14 uppercase">Присоединяйтесь</b>
+    
           <ul>
             <li>
-              <a
-                href="https://www.google.com.ua/maps/place/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="white font14 normal"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">Instagram</a>
             </li>
             <li>
-              <a href="mailto:info@example.com" class="white06 font14 normal"
-                >info@example.com</a
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Facebook">Facebook</a>
             </li>
             <li>
-              <a href="tel:+380991111111" class="white06 font14 normal">+380991111111</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Twitter">Twitter</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на linkedin">Linkedin</a>
             </li>
           </ul>
-        </address>
-      </div>
-      <div>
-        <b class="white font14 uppercase" >Присоединяйтесь</b>
-
-        <ul>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Инстаграм"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Facebook"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на Twitter"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="ссылка на linkedin"
-              >Linkedin</a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>
